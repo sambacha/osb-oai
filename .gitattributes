@@ -1,0 +1,17 @@
+# gitattributes configuration 
+
+export-ignore README.md
+/test export-ignore  
+/screenshots export-ignore
+/.github export-ignore
+
+.gitattributes export-ignore  
+.gitignore export-ignore
+
+# normalize lf & diff
+*.txt text
+*.html text
+*.css text
+*.js text
+*.sh text eol=lf
+*.html diff=html
